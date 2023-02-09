@@ -1,4 +1,5 @@
 // 解释器模式 demo
+// Interpreter pattern is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar.
 interface Expression {
   interpret: (stats: Map<string, number>) => boolean;
 }
